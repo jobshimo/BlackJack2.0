@@ -30,5 +30,12 @@
     },
     "resolutions": {
         "css-what": "^5.0.1"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.9.2",
+        "animate.css": "^4.1.1",
+        "bootstrap": "^5.0.1",
+        "sweetalert2": "^11.0.18",
+        "underscore": "^1.13.1"
     }
 }

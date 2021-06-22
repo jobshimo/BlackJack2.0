@@ -1,9 +1,28 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/animate.css/animate.min.css";
 html,
 body {
     margin: 0;
-    background-color: #d3cece;
+    background-color: #2F4F30;
+    color: white;
 }
 
-img {
+.titulo {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.carta {
+    position: relative;
     width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#player-cards,
+#pc-cards {
+    height: 240px;
 }

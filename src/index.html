@@ -1,19 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebPack</title>
+    <title>BlackJack</title>
 </head>
 
 <body>
-    <!-- Comentatios -->
-    <!-- Comentatios -->
-    <!-- Comentatios -->
 
-    <img src="./assets/img/webpack-logo.png" alt="">
+    <header class="titulo">BlackJack</header>
+
+    <div class="row mt-2">
+        <div class="col text-center">
+            <button id="btnNew" class="btn btn-danger">Nuevo Juego</button>
+            <button id="btnAsk" disabled="disabled" class="btn btn-primary">Pedir Carta</button>
+            <button id="btnStop" disabled="disabled" class="btn btn-primary">Plantarse</button>
+        </div>
+    </div>
+
+    <div class="row container">
+        <div class="col">
+            <h1>Juagador 1 - <small>0</small> </h1>
+
+            <div id="player-cards" class="divCards">
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row container mt-2">
+        <div class="col">
+            <h1> Ordenador - <small>0</small> </h1>
+
+            <div id="pc-cards" class="divCards">
+
+            </div>
+
+        </div>
+    </div>
 </body>
 
 </html>
